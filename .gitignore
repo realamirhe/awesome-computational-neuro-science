@@ -132,13 +132,17 @@ dmypy.json
 reports/*
 !reports/*.pdf
 
-# Only jupyter notebook in notebooks
+# Only jupyter notebook in notebooks/
 notebooks/*
 !notebooks/*.ipynb
 
+# Only python in src/
 src/*
 !src/*.py
 
+# Only pdf in projectCharters/
+projectCharters/*
+!projectCharters/*.pdf
 
 __learn__/
 .vscode/
