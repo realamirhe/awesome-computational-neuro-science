@@ -4,7 +4,6 @@
 
 
 
-
 Project Charters
 
 1. 
@@ -16,8 +15,8 @@ Project Charters
 
 ## DoG & Gabor in Convolution
 
-- [ ] [Gabor Filter](https://en.wikipedia.org/wiki/Gabor_filter)
+- [x] [Gabor Filter](https://en.wikipedia.org/wiki/Gabor_filter)
 
-- [ ] [Difference of Gaussian](https://en.wikipedia.org/wiki/Difference_of_Gaussians)
+- [x] [Difference of Gaussian](https://en.wikipedia.org/wiki/Difference_of_Gaussians)
 
   
