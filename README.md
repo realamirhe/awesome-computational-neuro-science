@@ -1,8 +1,10 @@
 # Computational Neuro Science
 
-<center><img src="./assets/README/logo.svg" width="250px" /><div>Icons made by <a href="https://www.flaticon.com/authors/freepik" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div></center>
+<p align="center"><img src="./assets/README/logo.svg" width="250px"  /></p>
 
+Icons made by [Freepik](https://www.flaticon.com/authors/freepik "Freepik") from [www.flaticon.com](https://www.flaticon.com/ "Flaticon")
 
+---
 
 Project Charters
 
