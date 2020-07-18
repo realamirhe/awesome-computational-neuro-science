@@ -7,10 +7,10 @@
 
 Project Charters
 
-1. 
-2. 
+1. **Neuron Models**
+2. **Neural Population**
 3. **Unsupervised STDP Learning**
-4. 
+4. **Reward Modulated STDP Learning**
 5.  **DoG & Gabor in Convolution**
 
 ## DoG & Gabor in Convolution
