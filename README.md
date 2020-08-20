@@ -37,7 +37,7 @@ Model trained and tested on [caltech101](https://www.tensorflow.org/datasets/cat
 
 We presents an deep spiking nerual model which consist of 3 layer. for first two layer only STDP learning is used, and for last layer dopamin releases followed by STDP and anti-STDP.
 
-**For mode documentation see code, documentation will be updated**
+**For more documentation see code, documentation will be updated**
 
 ---
 
