@@ -134,9 +134,6 @@ reports/*
 
 # Only jupyter notebook in notebooks/
 
-# Only python in src/
-src/*
-!src/*.py
 
 # Only pdf in projectCharters/
 projectCharters/*
