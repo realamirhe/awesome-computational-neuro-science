@@ -4,9 +4,6 @@
 
 ---
 
-<small>Icons made by [Freepik](https://www.flaticon.com/authors/freepik) from [www.flaticon.com](https://www.flaticon.com/)</small>
-
-
 <p align="center"><img src="./assets/README/contribution.png"  /></p>
 <p align="center"><small>Feel free to <b>contribute</b> & <b>open an issue</b> to help <code>the nevous system</code></small></p>
 
@@ -48,3 +45,6 @@ We presents an deep spiking nerual model which consist of 3 layer. for first two
 > [class videos and Lecture Notes](https://t.me/CNRLab)
 >
 > Computational Neuroscience Research Lab. (Department of Computer Science, University of Tehran) For more info, please visit [cnrl.ut.ac.ir](https://cnrl.ut.ac.ir/)
+
+---
+<small>Logo icon made by [Freepik](https://www.flaticon.com/authors/freepik) from [www.flaticon.com](https://www.flaticon.com/)</small>
