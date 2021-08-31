@@ -5,7 +5,7 @@
 ---
 
 <p align="center"><img src="./assets/README/contribution.png"  /></p>
-<p align="center"><small>Feel free to <b>contribute</b> & <b>open an issue</b> to help <code>the nevous system</code></small></p>
+<p align="center"><small>Feel free to <a href="https://github.com/amirHossein-Ebrahimi/ComputationalNeuroScience/blob/master/CONTRIBUTING.md"><b>contribute</b></a> & <a href="https://github.com/amirHossein-Ebrahimi/ComputationalNeuroScience/issues/new"><b>open an issue</b></a> to help <code>the nevous system</code></small></p>
 
 Project Charters
 
