@@ -3,7 +3,7 @@
 
 
 ### Tutorials
-* <a href="/tutorials.md"><img src="https://img.shields.io/badge/Our tutorial Series 🔥 of CNN & SNN-f7df1e" width="300px"/></a> 
+* <a href="/tutorials.md" title="tutorial Series on computational-neuro-science & spyking-nueral-network"><img src="https://img.shields.io/badge/Our tutorial Series on CNS & SNN (🔥)-f7df1e" width="300px"/></a> 
 * [Spiking-Neural-Network](https://github.com/Shikhargupta/Spiking-Neural-Network) is the pure python implementation of hardware efficient spiking neural network. It includes the modified learning and prediction rules which could be released on hardware and are energy efficient. Aim is to develop a network which could be used for on-chip learning as well as prediction.
 
 
