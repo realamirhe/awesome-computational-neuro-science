@@ -1,7 +1,11 @@
-<h1 align="center">Computational Neuro Science</h1>
-
-## Resources <img align="right" src="./assets/README/logo.svg" width="75px" >
+# Computational Neuro Science <img align="right" src="./assets/README/logo.svg" width="150px" >
 [![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome)
+
+
+### Tutorials
+* <a href="/tutorials.md"><img src="https://img.shields.io/badge/Our tutorial Series 🔥 of CNN & SNN-f7df1e" width="300px"/></a> 
+* [Spiking-Neural-Network](https://github.com/Shikhargupta/Spiking-Neural-Network) is the pure python implementation of hardware efficient spiking neural network. It includes the modified learning and prediction rules which could be released on hardware and are energy efficient. Aim is to develop a network which could be used for on-chip learning as well as prediction.
+
 
 ### tools
 * [Auryn](https://github.com/fzenke/auryn) is a C++ simulator for recurrent spiking neural networks with synaptic plasticity. It comes with the GPLv3. `SIMULATOR`
@@ -23,11 +27,6 @@
 * [cuSNN](https://github.com/tudelft/cuSNN) is a C++ library that enables GPU-accelerated simulations of large-scale Spiking Neural Networks (SNNs). `LIBRARY`
 * [decolle](https://github.com/nmi-lab/decolle-public) implements an online learning algorithm described in the paper ["Synaptic Plasticity Dynamics for Deep Continuous Local Learning (DECOLLE)"](https://arxiv.org/abs/1811.10766) by J. Kaiser, M. Mostafa and E. Neftci. `ALGORITHMS`, `UTILITY`
 * [snnTorch](https://github.com/jeshraghian/snntorch) is a Python package for performing gradient-based learning with spiking neural networks. It extends the capabilities of PyTorch, taking advantage of its GPU accelerated tensor computation and applying it to networks of spiking neurons. `PACKAGE`
-
-
-### Tutorials
-* [Computational Neuro Science](/tutorials.md) Jupyter notebook tutorial Series for Spiking Neural Networks 🔥
-* [Spiking-Neural-Network](https://github.com/Shikhargupta/Spiking-Neural-Network) is the pure python implementation of hardware efficient spiking neural network. It includes the modified learning and prediction rules which could be released on hardware and are energy efficient. Aim is to develop a network which could be used for on-chip learning as well as prediction.
 
 ---
 <small>Logo icon made by [Freepik](https://www.flaticon.com/authors/freepik) from [www.flaticon.com](https://www.flaticon.com/)</small>  
