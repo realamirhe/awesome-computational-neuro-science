@@ -1,11 +1,9 @@
 # Computational Neuro Science <img align="right" src="./assets/README/logo.svg" width="150px" >
 [![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome)
 
-
 ### Tutorials
 * <a href="/tutorials.md" title="tutorial Series on computational-neuro-science & spyking-nueral-network"><img src="https://img.shields.io/badge/Our tutorial Series on CNS & SNN (🔥)-f7df1e" width="300px"/></a> 
 * [Spiking-Neural-Network](https://github.com/Shikhargupta/Spiking-Neural-Network) is the pure python implementation of hardware efficient spiking neural network. It includes the modified learning and prediction rules which could be released on hardware and are energy efficient. Aim is to develop a network which could be used for on-chip learning as well as prediction.
-
 
 ### tools
 * [Auryn](https://github.com/fzenke/auryn) is a C++ simulator for recurrent spiking neural networks with synaptic plasticity. It comes with the GPLv3. `SIMULATOR`
@@ -19,6 +17,7 @@
 * [PyNN](http://neuralensemble.org/docs/PyNN/) is a simulator-independent language for building neuronal network models. It does not currently provide mechanisms for optimisation or arbitrary synaptic plasticity. `SIMULATOR`
 * [PySNN](https://github.com/BasBuller/PySNN/) is a Spiking neural network (SNN) framework written on top of PyTorch for efficient simulation of SNNs both on CPU and GPU. `FRAMEWORK`
 * [Rockpool](https://gitlab.com/aiCTX/rockpool) is a Python package developed by SynSense for training, simulating and deploying spiking neural networks. It offers both JAX and PyTorch primitives. `PACKAGE`
+* [SNN toolbox](https://snntoolbox.readthedocs.io/en/latest/guide/intro.html) is a framework to transform rate-based artificial neural networks into spiking neural networks, and to run them using various spike encodings. `FRAMEWORK`
 * [Sinabs](https://gitlab.com/synsense/sinabs) is a python library for development and implementation of Spiking Convolutional Neural Networks (SCNNs). it provides support to import CNN models implemented in torch conveniently to test their spiking equivalent implementation. `LIBRARY`
 * [SlayerPyTorch](https://github.com/bamsumit/slayerPytorch) is a **S**pike **LAY**er **E**rror **R**eassignment library, that focuses on solutions for the temporal credit problem of spiking neurons and a probabilistic approach to backpropagation errors. It includes support for the [Loihi chip](https://en.wikichip.org/wiki/intel/loihi). `PACKAGE`
 * [SpikeTorch](https://github.com/djsaunde/spiketorch) Python package used for simulating spiking neural networks (SNNs) in PyTorch. [successor to this project](https://github.com/BINDS-LAB-UMASS/bindsnet). `PACKAGE`  
@@ -26,6 +25,7 @@
 * [SpykeTorch](https://github.com/miladmozafari/SpykeTorch) High-speed simulator of convolutional spiking neural networks with at most one spike per neuron. `PACKAGE`
 * [cuSNN](https://github.com/tudelft/cuSNN) is a C++ library that enables GPU-accelerated simulations of large-scale Spiking Neural Networks (SNNs). `LIBRARY`
 * [decolle](https://github.com/nmi-lab/decolle-public) implements an online learning algorithm described in the paper ["Synaptic Plasticity Dynamics for Deep Continuous Local Learning (DECOLLE)"](https://arxiv.org/abs/1811.10766) by J. Kaiser, M. Mostafa and E. Neftci. `ALGORITHMS`, `UTILITY`
+* [s2net](https://github.com/romainzimmer/s2net) is based on the implementation presented in [SpyTorch](https://github.com/fzenke/spytorch), but implements convolutional layers as well. It also contains a demonstration how to use those primitives to train a model on the [Google Speech Commands dataset](https://arxiv.org/abs/1804.03209). `LIBRARY`
 * [snnTorch](https://github.com/jeshraghian/snntorch) is a Python package for performing gradient-based learning with spiking neural networks. It extends the capabilities of PyTorch, taking advantage of its GPU accelerated tensor computation and applying it to networks of spiking neurons. `PACKAGE`
 
 ---
