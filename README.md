@@ -3,7 +3,8 @@
 ## Resources <img align="right" src="./assets/README/logo.svg" width="75px" >
 [![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome)
 
-### tools* [Auryn](https://github.com/fzenke/auryn) is a C++ simulator for recurrent spiking neural networks with synaptic plasticity. It comes with the GPLv3. `SIMULATOR`
+### tools
+* [Auryn](https://github.com/fzenke/auryn) is a C++ simulator for recurrent spiking neural networks with synaptic plasticity. It comes with the GPLv3. `SIMULATOR`
 * [BindsNET](https://github.com/BindsNET/bindsnet) is a Python package used for simulating spiking neural networks (SNNs) on CPUs or GPUs using PyTorch Tensor functionality. `PACKAGE`
 * [BrainPy](https://github.com/PKU-NIP-Lab/BrainPy) is an integrative framework for computational neuroscience and brain-inspired computation based on Just-In-Time (JIT) compilation (built on the top of JAX and Numba). `FRAMEWORK`
 * [GeNN](http://genn-team.github.io/genn/) compiles SNN network models to NVIDIA CUDA to achieve high-performing SNN model simulations. `PERFORMANCE`
