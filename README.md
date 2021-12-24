@@ -38,7 +38,7 @@
 * [snnTorch](https://github.com/jeshraghian/snntorch) is a Python package for performing gradient-based learning with spiking neural networks. It extends the capabilities of PyTorch, taking advantage of its GPU accelerated tensor computation and applying it to networks of spiking neurons. `PACKAGE`
 * [spikeflow](https://github.com/colinator/spikeflow) Python library for easy creation and running of spiking neural networks in tensorflow. `LIBRARY`
 
-## Papers
+### Papers
 * "Convolutional spiking neural networks (SNN) for spatio-temporal feature extraction". [Github repository](https://github.com/aa-samad/conv_snn)
 * "Enabling Deep Spiking Neural Networks with Hybrid Conversion and Spike Timing Dependent Backpropagation" published in [ICLR, 2020](https://openreview.net/forum?id=B1xSperKvH). [Github repository](https://github.com/nitin-rathi/hybrid-snn-conversion)
 
