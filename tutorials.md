@@ -1,14 +1,14 @@
 <p align="center"><img src="./assets/README/contribution.png"  /></p>
 <p align="center"><small>Feel free to <a href="https://github.com/amirHossein-Ebrahimi/ComputationalNeuroScience/blob/master/CONTRIBUTING.md"><b>contribute</b></a> & <a href="https://github.com/amirHossein-Ebrahimi/ComputationalNeuroScience/issues/new"><b>open an issue</b></a> to help <code>the nervous system</code></small></p>
 
-Project Charters
+## Project charters and tutorial series
 
-1. **Neuron Models**
-2. **Neural Population**
-3. **Unsupervised STDP Learning**
-4. **Reward Modulated STDP Learning**
-5. **DoG & Gabor in Convolution**
-6. **Full object detection model based on spiking neural network**
+1. [**Neuron Models**](https://github.com/amirHossein-Ebrahimi/awesome-computational-neuro-science/blob/master/notebooks/Project%201/SNN%20Models.ipynb)
+2. [**Neural Population**](https://github.com/amirHossein-Ebrahimi/awesome-computational-neuro-science/blob/master/notebooks/Project%202/Neuron%20Population.ipynb)
+3. [**Unsupervised STDP Learning**](https://github.com/amirHossein-Ebrahimi/awesome-computational-neuro-science/blob/master/notebooks/Project%203/STDP.ipynb)
+4. [**Reward Modulated STDP Learning**](https://github.com/amirHossein-Ebrahimi/awesome-computational-neuro-science/blob/master/notebooks/Project%204/reward%20modulated%20STDP.ipynb)
+5. [**DoG & Gabor in Convolution**](https://github.com/amirHossein-Ebrahimi/awesome-computational-neuro-science/blob/master/notebooks/Project%205/convolution.ipynb)
+6. [**Full object detection model based on spiking neural network**](https://github.com/amirHossein-Ebrahimi/awesome-computational-neuro-science/tree/master/notebooks/abstract%20Neural%20Models)
 
 ## DoG & Gabor in Convolution
 
