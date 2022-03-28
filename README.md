@@ -42,6 +42,15 @@
 * "Convolutional spiking neural networks (SNN) for spatio-temporal feature extraction". [Github repository](https://github.com/aa-samad/conv_snn)
 * "Enabling Deep Spiking Neural Networks with Hybrid Conversion and Spike Timing Dependent Backpropagation" published in [ICLR, 2020](https://openreview.net/forum?id=B1xSperKvH). [Github repository](https://github.com/nitin-rathi/hybrid-snn-conversion)
 
+### Books
+* Miller, P. (2018). "An Introductory Course in Computational Neuroscience" (1st Edition). MIT Press. [Buy](https://www.amazon.com/dp/0262038250/).
+* Arbib, M.A. & Bonaiuto, J.J. (2016). "From Neuron to Cognition via Computational Neuroscience". MIT Press. [Buy](https://www.barnesandnoble.com/w/from-neuron-to-cognition-via-computational-neuroscience-michael-a-arbib/1123648341?ean=9780262034968).
+* Bear, M.F., Connors, B.W., Paradiso, M.A. (2015). "Neuroscience: Exploring the Brain" (4th Edition). Jones & Bartlett Learning. [Buy](https://www.amazon.com/Neuroscience-Exploring-Mark-F-Bear/dp/0781778174).
+* Eliasmith, C. (2015). "How to Build a Brain: A Neural Architecture for Biological Cognition" (Reprint Edition). Oxford University Press. [Buy](https://www.amazon.com/How-Build-Brain-Architecture-Architectures/dp/0190262125).
+* Gerstner, W., Kistler, W.M., Naud, R., Paninski, L. (2014). "Neuronal Dynamics: From Single Neurons to Networks and Models of Cognition" (1st Edition). Cambridge University Press. [Read Online](https://neuronaldynamics.epfl.ch/online/index.html). [Buy](https://www.amazon.com/Neuronal-Dynamics-Neurons-Networks-Cognition/dp/1107635195/ref=pd_sbs_6/134-8952121-4431533?pd_rd_w=7ZxKW&pf_rd_p=3676f086-9496-4fd7-8490-77cf7f43f846&pf_rd_r=QSTA4C570Q8B7KSJZPJ6&pd_rd_r=94317d9c-2c88-4167-9f8e-f6098ba94c69&pd_rd_wg=2uxIx&pd_rd_i=1107635195&psc=1).
+* Trappenberg, T. (2010). "Fundamentals of Computational Neuroscience" (2nd Edition). Oxford University Press. [Buy](https://www.amazon.com/Fundamentals-Computational-Neuroscience-Thomas-Trappenberg-dp-0199568413/dp/0199568413/ref=mt_other?_encoding=UTF8&me=&qid=).
+* Dayan, P. & Abbott, L.F. (2005). "Theoretical Neuroscience: Computational and Mathematical Modeling of Neural Systems" (1st Edition). MIT Press. [Read Online](http://www.gatsby.ucl.ac.uk/~lmate/biblio/dayanabbott.pdf). [Buy](https://www.amazon.com/Theoretical-Neuroscience-Computational-Mathematical-Modeling/dp/0262541858/ref=pd_sbs_1/134-8952121-4431533?pd_rd_w=7ZxKW&pf_rd_p=3676f086-9496-4fd7-8490-77cf7f43f846&pf_rd_r=QSTA4C570Q8B7KSJZPJ6&pd_rd_r=94317d9c-2c88-4167-9f8e-f6098ba94c69&pd_rd_wg=2uxIx&pd_rd_i=0262541858&psc=1).
+
 ---
 <small>Logo icon made by [Freepik](https://www.flaticon.com/authors/freepik) from [www.flaticon.com](https://www.flaticon.com/)</small>  
 <small>List of tools are highly inspried by [Norse](https://github.com/norse/norse)</small>
