@@ -6,38 +6,56 @@
 * [Spiking-Neural-Network](https://github.com/Shikhargupta/Spiking-Neural-Network) is the pure Python implementation of hardware hardware-efficient spiking neural network. It includes the modified learning and prediction rules which could be released on hardware and are energy efficient. The aim is to develop a network that could be used for on-chip learning and prediction.
 
 ### Tools
-* [Auryn](https://github.com/fzenke/auryn) is a C++ simulator for recurrent spiking neural networks with synaptic plasticity. It comes with the GPLv3. `SIMULATOR`
-* [Bee](https://github.com/ricardodeazambuja/Bee) is an open-source simulator for Spiking Neural Network (SNN) simulator, freely available, specialised in Liquid State Machine (LSM) systems with its core functions fully implemented in C. `SIMULATOR`
-* [BindsNET](https://github.com/BindsNET/bindsnet) is a Python package used for simulating spiking neural networks (SNNs) on CPUs or GPUs using PyTorch Tensor functionality. `PACKAGE`![promote-badge][promote]
-* [BrainPy](https://github.com/PKU-NIP-Lab/BrainPy) is an integrative framework for computational neuroscience and brain-inspired computation based on Just-In-Time (JIT) compilation (built on the top of JAX and Numba). `FRAMEWORK`
-* [Brian2](https://github.com/brian-team/brian2) is a clock-driven simulator for spiking neural networks. `SIMULATOR`
-* [DRL with Population Coded Spiking Neural Network](https://github.com/combra-lab/pop-spiking-deep-rl) the PyTorch implementation of the **Pop**ulation-coded **S**piking **A**ctor **N**etwork (PopSAN) that integrates with both on-policy (PPO) and off-policy (DDPG, TD3, SAC) DRL algorithms for learning optimal and energy-efficient continuous control policies. `PACKAGE`
-* [Encoders](https://github.com/iamsoroush/Encoders) is a Python utility package of encoding algorithms that encode real-valued data into spike trains for use in Spiking Neural Networks. `UTILITY`
-* [GeNN](http://genn-team.github.io/genn/) compiles SNN network models to NVIDIA CUDA to achieve high-performing SNN model simulations. `PERFORMANCE`
-* [Long short-term memory Spiking Neural Networks (LSNN)](https://github.com/IGITUGraz/LSNN-official) provides a [Tensorflow](https://www.tensorflow.org/) 1.12 library and a tutorial to train a recurrent spiking neural network (LSNN). The library focuses on a single neuron and gradient model. `LIBRARY`
-* [Nengo PyTorch](https://github.com/nengo/pytorch-spiking) is a thin wrapper for PyTorch that adds a single voltage-only spiking model. The approach is independent of the Nengo framework. `LIBRARY`
-* [Nengo](https://www.nengo.ai/nengo-dl/introduction.html) is a neuron simulator, and Nengo-DL is a deep learning network simulator that optimized spike-based neural networks based on an approximation method suggested by [Hunsberger and Eliasmith (2016)](https://arxiv.org/abs/1611.05141). `SIMULATOR`
-* [Neurapse](https://github.com/udion/Neurapse) is a package in python that implements some of the fundamental blocks of SNN and is written in a manner so that it can easily be extended and customized for simulation purposes. `PACKAGE`
-* [Neuron Simulation Toolkit (NEST)](https://nest-simulator.org) constructs and evaluates highly detailed simulations of spiking neural networks. This is useful in a medical/biological sense but maps poorly to large datasets and deep learning. `SIMULATOR`
+* [ASA-SNN](https://github.com/BICLab/ASA-SNN) is the official implementation of "Inherent Redundancy in Spiking Neural Networks" (ICCV2023). ![architecture-badge][ARCHITECTURE] ![trending-badge][trending]
+* [ASGL-SNN](https://github.com/Windere/ASGL-SNN) implements "Adaptive Smoothing Gradient Learning" for SNNs (ICML 2023). ![algorithm-badge][ALGORITHM] ![trending-badge][trending]
+* [Auryn](https://github.com/fzenke/auryn) is a C++ simulator for recurrent spiking neural networks with synaptic plasticity. It comes with the GPLv3. ![simulator-badge][SIMULATOR]
+* [Bee](https://github.com/ricardodeazambuja/Bee) is an open-source simulator for Spiking Neural Network (SNN) simulator, freely available, specialised in Liquid State Machine (LSM) systems with its core functions fully implemented in C. ![simulator-badge][SIMULATOR]
+* [BindsNET](https://github.com/BindsNET/bindsnet) is a Python package used for simulating spiking neural networks (SNNs) on CPUs or GPUs using PyTorch Tensor functionality. ![package-badge][PACKAGE] ![promote-badge][promote]
+* [Brain-Cog](https://github.com/BrainCog-X/Brain-Cog) is a brain-inspired spiking neural network based platform for Brain-inspired Artificial Intelligence and simulating brains at multiple scales. ![framework-badge][FRAMEWORK] ![trending-badge][trending]
+* [BrainPy](https://github.com/PKU-NIP-Lab/BrainPy) is an integrative framework for computational neuroscience and brain-inspired computation based on Just-In-Time (JIT) compilation (built on the top of JAX and Numba). ![framework-badge][FRAMEWORK]
+* [Brian2](https://github.com/brian-team/brian2) is a clock-driven simulator for spiking neural networks. ![simulator-badge][SIMULATOR]
+* [CLIF: Complementary LIF Neuron](https://github.com/HuuYuLong/Complementary-LIF) enhances LIF neurons for better performance in SNNs (ICML 2024 spotlight). ![model-badge][MODEL] ![trending-badge][trending]
+* [Complementary-LIF](https://github.com/HuuYuLong/Complementary-LIF) is the official implementation of CLIF: Complementary Leaky Integrate-and-Fire neuron. ![model-badge][MODEL] ![trending-badge][trending]
+* [cuSNN](https://github.com/tudelft/cuSNN) is a C++ library that enables GPU-accelerated simulations of large-scale Spiking Neural Networks (SNNs). ![library-badge][library]
+* [decolle](https://github.com/nmi-lab/decolle-public) implements an online learning algorithm described in the paper ["Synaptic Plasticity Dynamics for Deep Continuous Local Learning (DECOLLE)"](https://arxiv.org/abs/1811.10766) by J. Kaiser, M. Mostafa and E. Neftci. ![algorithm-badge][ALGORITHMS], ![utility-badge][UTILITY]
+* [difffSNN](https://github.com/ibm-research-tokyo/diffsnn) implements differentiable point processes and spiking neural networks. ![algorithm-badge][ALGORITHM] ![trending-badge][trending]
+* [DRL with Population Coded Spiking Neural Network](https://github.com/combra-lab/pop-spiking-deep-rl) the PyTorch implementation of the **Pop**ulation-coded **S**piking **A**ctor **N**etwork (PopSAN) that integrates with both on-policy (PPO) and off-policy (DDPG, TD3, SAC) DRL algorithms for learning optimal and energy-efficient continuous control policies. ![package-badge][PACKAGE]
+* [Encoders](https://github.com/iamsoroush/Encoders) is a Python utility package of encoding algorithms that encode real-valued data into spike trains for use in Spiking Neural Networks. ![utility-badge][UTILITY]
+* [EvNN](https://github.com/Efficient-Scalable-Machine-Learning/EvNN) is a framework for event-based neural networks. ![framework-badge][FRAMEWORK] ![trending-badge][trending]
+* [GeNN](http://genn-team.github.io/genn/) compiles SNN network models to NVIDIA CUDA to achieve high-performing SNN model simulations. ![performance-badge][PERFORMANCE]
+* [Long short-term memory Spiking Neural Networks (LSNN)](https://github.com/IGITUGraz/LSNN-official) provides a [Tensorflow](https://www.tensorflow.org/) 1.12 library and a tutorial to train a recurrent spiking neural network (LSNN). The library focuses on a single neuron and gradient model. ![library-badge][library]
+* [Nengo PyTorch](https://github.com/nengo/pytorch-spiking) is a thin wrapper for PyTorch that adds a single voltage-only spiking model. The approach is independent of the Nengo framework. ![library-badge][library]
+* [Nengo](https://www.nengo.ai/nengo-dl/introduction.html) is a neuron simulator, and Nengo-DL is a deep learning network simulator that optimized spike-based neural networks based on an approximation method suggested by [Hunsberger and Eliasmith (2016)](https://arxiv.org/abs/1611.05141). ![simulator-badge][SIMULATOR]
+* [Neurapse](https://github.com/udion/Neurapse) is a package in python that implements some of the fundamental blocks of SNN and is written in a manner so that it can easily be extended and customized for simulation purposes. ![package-badge][PACKAGE]
+* [Neuron Simulation Toolkit (NEST)](https://nest-simulator.org) constructs and evaluates highly detailed simulations of spiking neural networks. This is useful in a medical/biological sense but maps poorly to large datasets and deep learning. ![simulator-badge][SIMULATOR]
+* [ngc-learn](https://github.com/NACLab/ngc-learn) provides tools for neurobiological systems design and simulation in Python. ![utility-badge][UTILITY] ![trending-badge][trending]
 * [Norse](https://github.com/norse/norse) is Pytorch expansion which aims to exploit the advantages of bio-inspired neural components, which are sparse and event-driven - a fundamental difference from artificial neural networks
-* [PyNN](http://neuralensemble.org/docs/PyNN/) is a simulator-independent language for building neuronal network models. It does not currently provide mechanisms for optimization or arbitrary synaptic plasticity. `SIMULATOR`
-* [PySNN](https://github.com/BasBuller/PySNN/) is a Spiking neural network (SNN) framework written on top of PyTorch for efficient simulation of SNNs both on CPU and GPU. `FRAMEWORK`
-* [PymoNNto](https://github.com/trieschlab/PymoNNto) The "**Py**thon **mo**dular **n**eural **n**etwork **to**olbox" allows you to create different Neuron-Groups, define their Behaviour and connect them with Synapse-Groups. `PACKAGE`![promote-badge][promote]
-* [PymoNNtorch](https://github.com/cnrl/PymoNNtorch) Pytorch-adapted version of PymoNNto `PACKAGE`![promote-badge][promote]
-* [Rockpool](https://gitlab.com/aiCTX/rockpool) is a Python package developed by SynSense for training, simulating and deploying spiking neural networks. It offers both JAX and PyTorch primitives. `PACKAGE`
-* [SNN toolbox](https://snntoolbox.readthedocs.io/en/latest/guide/intro.html) is a framework to transform rate-based artificial neural networks into spiking neural networks, and to run them using various spike encodings. `FRAMEWORK`
-* [Sinabs](https://gitlab.com/synsense/sinabs) is a Python library for the development and implementation of Spiking Convolutional Neural Networks (SCNNs). it provides support to import CNN models implemented in torch conveniently to test their spiking equivalent implementation. `LIBRARY`
-* [SlayerPyTorch](https://github.com/bamsumit/slayerPytorch) is a **S**pike **LAY**er **E**rror **R**eassignment library, that focuses on solutions for the temporal credit problem of spiking neurons and a probabilistic approach to backpropagation errors. It includes support for the [Loihi chip](https://en.wikichip.org/wiki/intel/loihi). `PACKAGE`
-* [SpikeTorch](https://github.com/djsaunde/spiketorch) Python package used for simulating spiking neural networks (SNNs) in PyTorch. [successor to this project](https://github.com/BINDS-LAB-UMASS/bindsnet). `PACKAGE`  
-* [SpikingJelly](https://github.com/fangwei123456/spikingjelly) is an open-source deep learning framework for Spiking Neural Network (SNN) based on PyTorch. `FRAMEWORK`
-* [SpykeTorch](https://github.com/miladmozafari/SpykeTorch) High-speed simulator of convolutional spiking neural networks with at most one spike per neuron. `PACKAGE`
-* [Tonic](https://github.com/neuromorphs/tonic) is a tool to facilitate the download, manipulation, and loading of event-based/spike-based data. It's like PyTorch Vision but for neuromorphic data! `LIBRARY`
-* [WheatNNLeek](https://github.com/libgirlenterprise/WheatNNLeek) A Rust and common-lisp spiking neural network system. `LIBRARY`
-* [cuSNN](https://github.com/tudelft/cuSNN) is a C++ library that enables GPU-accelerated simulations of large-scale Spiking Neural Networks (SNNs). `LIBRARY`
-* [decolle](https://github.com/nmi-lab/decolle-public) implements an online learning algorithm described in the paper ["Synaptic Plasticity Dynamics for Deep Continuous Local Learning (DECOLLE)"](https://arxiv.org/abs/1811.10766) by J. Kaiser, M. Mostafa and E. Neftci. `ALGORITHMS`, `UTILITY`
-* [s2net](https://github.com/romainzimmer/s2net) is based on the implementation presented in [SpyTorch](https://github.com/fzenke/spytorch), but implements convolutional layers as well. It also contains a demonstration of how to use those primitives to train a model on the [Google Speech Commands dataset](https://arxiv.org/abs/1804.03209). `LIBRARY`
-* [snnTorch](https://github.com/jeshraghian/snntorch) is a Python package for performing gradient-based learning with spiking neural networks. It extends the capabilities of PyTorch, taking advantage of its GPU-accelerated tensor computation and applying it to networks of spiking neurons. `PACKAGE`
-* [spikeflow](https://github.com/colinator/spikeflow) Python library for easy creation and running of spiking neural networks in TensorFlow. `LIBRARY`
+* [Parametric-Leaky-Integrate-and-Fire-Spiking-Neuron](https://github.com/fangwei123456/Parametric-Leaky-Integrate-and-Fire-Spiking-Neuron) enhances SNNs by incorporating learnable membrane time constants. ![model-badge][MODEL] ![trending-badge][trending]
+* [PymoNNto](https://github.com/trieschlab/PymoNNto) The "**Py**thon **mo**dular **n**eural **n**etwork **to**olbox" allows you to create different Neuron-Groups, define their Behaviour and connect them with Synapse-Groups. ![package-badge][PACKAGE]! [promote-badge][promote]
+* [PymoNNtorch](https://github.com/cnrl/PymoNNtorch) Pytorch-adapted version of PymoNNto ![package-badge][PACKAGE] ![promote-badge][promote]
+* [PyNN](http://neuralensemble.org/docs/PyNN/) is a simulator-independent language for building neuronal network models. It does not currently provide mechanisms for optimization or arbitrary synaptic plasticity. ![simulator-badge][SIMULATOR]
+* [PySNN](https://github.com/BasBuller/PySNN/) is a Spiking neural network (SNN) framework written on top of PyTorch for efficient simulation of SNNs both on CPU and GPU. ![framework-badge][FRAMEWORK]
+* [Rockpool](https://gitlab.com/aiCTX/rockpool) is a Python package developed by SynSense for training, simulating and deploying spiking neural networks. It offers both JAX and PyTorch primitives. ![package-badge][PACKAGE]
+* [s2net](https://github.com/romainzimmer/s2net) is based on the implementation presented in [SpyTorch](https://github.com/fzenke/spytorch), but implements convolutional layers as well. It also contains a demonstration of how to use those primitives to train a model on the [Google Speech Commands dataset](https://arxiv.org/abs/1804.03209). ![library-badge][library]
+* [Sinabs](https://gitlab.com/synsense/sinabs) is a Python library for the development and implementation of Spiking Convolutional Neural Networks (SCNNs). it provides support to import CNN models implemented in torch conveniently to test their spiking equivalent implementation. ![library-badge][library]
+* [SlayerPyTorch](https://github.com/bamsumit/slayerPytorch) is a **S**pike **LAY**er **E**rror **R**eassignment library, that focuses on solutions for the temporal credit problem of spiking neurons and a probabilistic approach to backpropagation errors. It includes support for the [Loihi chip](https://en.wikichip.org/wiki/intel/loihi). ![package-badge][PACKAGE]
+* [SNN toolbox](https://snntoolbox.readthedocs.io/en/latest/guide/intro.html) is a framework to transform rate-based artificial neural networks into spiking neural networks, and to run them using various spike encodings. ![framework-badge][FRAMEWORK]
+* [snnTorch](https://github.com/jeshraghian/snntorch) is a Python package for performing gradient-based learning with spiking neural networks. It extends the capabilities of PyTorch, taking advantage of its GPU-accelerated tensor computation and applying it to networks of spiking neurons. ![package-badge][PACKAGE]
+* [Spike-Driven-Transformer-V2](https://github.com/BICLab/Spike-Driven-Transformer-V2) is the official implementation of "Spike-driven Transformer V2: Meta Spiking Neural Network Architecture" (ICLR2024). `ARCHITECTURE` ![trending-badge][trending]
+* [spikeflow](https://github.com/colinator/spikeflow) Python library for easy creation and running of spiking neural networks in TensorFlow. ![library-badge][library]
+* [SpikeGCL](https://github.com/EdisonLeeeee/SpikeGCL) is the official implementation of Spiking Graph Contrastive Learning. ~[][APPLICATION] ![trending-badge][trending]
+* [SpikeNet.jl](https://github.com/damiendr/SpikeNet.jl) is a spiking neural network simulator written in Julia. ![simulator-badge][SIMULATOR] ![trending-badge][trending]
+* [SpikeNet](https://github.com/EdisonLeeeee/SpikeNet) enables scalable dynamic graph learning via spiking neural networks. ~[][APPLICATION] ![trending-badge][trending]
+* [Spikes](https://github.com/akshaybabloo/Spikes) provides SNN-based encoders for time series data. ![utility-badge][UTILITY] ![trending-badge][trending]
+* [SpikeTorch](https://github.com/djsaunde/spiketorch) Python package used for simulating spiking neural networks (SNNs) in PyTorch. [successor to this project](https://github.com/BINDS-LAB-UMASS/bindsnet). ![package-badge][PACKAGE]  
+* [SpikeYOLO](https://github.com/BICLab/SpikeYOLO) implements spike-driven object detection using SNNs, targeting energy efficiency (ECCV2024 Best Paper Candidate). ![application-badge][APPLICATION] ![trending-badge][trending]
+* [Spikingformer](https://github.com/zhouchenlin2096/Spikingformer) applies spike-driven residual learning for Transformer-based SNNs. `ARCHITECTURE` ![trending-badge][trending]
+* [SpikingJelly](https://github.com/fangwei123456/spikingjelly) is an open-source deep learning framework for Spiking Neural Network (SNN) based on PyTorch. ![framework-badge][FRAMEWORK]
+* [SpikingSIM](https://github.com/Evin-X/SpikingSIM) is a spike camera simulator. ![simulator-badge][SIMULATOR] ![trending-badge][trending]
+* [SpykeTorch](https://github.com/miladmozafari/SpykeTorch) High-speed simulator of convolutional spiking neural networks with at most one spike per neuron. ![package-badge][PACKAGE]
+* [spyx](https://github.com/kmheckel/spyx) is a spiking neural network implementation using JAX. ![framework-badge][FRAMEWORK] ![trending-badge][trending] ![trending-badge][trending]
+* [Tonic](https://github.com/neuromorphs/tonic) is a tool to facilitate the download, manipulation, and loading of event-based/spike-based data. It's like PyTorch Vision but for neuromorphic data! ![library-badge][library]
+* [WheatNNLeek](https://github.com/libgirlenterprise/WheatNNLeek) A Rust and common-lisp spiking neural network system. ![library-badge][library]
 
 ## Applications
 * [flyvec](https://github.com/bhoov/flyvec) A biologically inspired method to create sparse, binary word vectors
@@ -60,4 +78,15 @@
 <small>Logo icon made by [Freepik](https://www.flaticon.com/authors/freepik) from [www.flaticon.com](https://www.flaticon.com/)</small>  
 <small>List of tools are highly inspried by [Norse](https://github.com/norse/norse)</small>
 
-[promote]: https://img.shields.io/badge/❤️promote-e95420
+[ALGORITHM]: https://img.shields.io/badge/ALGORITHM-5c8dae
+[APPLICATION]: https://img.shields.io/badge/APPLICATION-5c8dae
+[ARCHITECTURE]: https://img.shields.io/badge/ARCHITECTURE-5c8dae
+[FRAMEWORK]: https://img.shields.io/badge/FRAMEWORK-5c8dae
+[LIBRARY]: https://img.shields.io/badge/LIBRARY-5c8dae
+[MODEL]: https://img.shields.io/badge/MODEL-5c8dae
+[PACKAGE]: https://img.shields.io/badge/PACKAGE-5c8dae
+[PERFORMANCE]: https://img.shields.io/badge/PERFORMANCE-5c8dae
+[promote]: https://img.shields.io/badge/❤️%20promoted-e95420
+[SIMULATOR]: https://img.shields.io/badge/SIMULATOR-5c8dae
+[trending]: https://img.shields.io/badge/trending-00b401
+[UTILITY]: https://img.shields.io/badge/UTILITY-5c8dae
