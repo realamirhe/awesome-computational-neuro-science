@@ -7,7 +7,6 @@
 
 ### Tools
 * [ASA-SNN](https://github.com/BICLab/ASA-SNN) is the official implementation of "Inherent Redundancy in Spiking Neural Networks" (ICCV2023). ![architecture-badge][ARCHITECTURE] ![trending-badge][trending]
-* [ASGL-SNN](https://github.com/Windere/ASGL-SNN) implements "Adaptive Smoothing Gradient Learning" for SNNs (ICML 2023). ![algorithm-badge][ALGORITHM] ![trending-badge][trending]
 * [Auryn](https://github.com/fzenke/auryn) is a C++ simulator for recurrent spiking neural networks with synaptic plasticity. It comes with the GPLv3. ![simulator-badge][SIMULATOR]
 * [Bee](https://github.com/ricardodeazambuja/Bee) is an open-source simulator for Spiking Neural Network (SNN) simulator, freely available, specialised in Liquid State Machine (LSM) systems with its core functions fully implemented in C. ![simulator-badge][SIMULATOR]
 * [BindsNET](https://github.com/BindsNET/bindsnet) is a Python package used for simulating spiking neural networks (SNNs) on CPUs or GPUs using PyTorch Tensor functionality. ![package-badge][PACKAGE] ![promote-badge][promote]
@@ -17,8 +16,6 @@
 * [CLIF: Complementary LIF Neuron](https://github.com/HuuYuLong/Complementary-LIF) enhances LIF neurons for better performance in SNNs (ICML 2024 spotlight). ![model-badge][MODEL] ![trending-badge][trending]
 * [Complementary-LIF](https://github.com/HuuYuLong/Complementary-LIF) is the official implementation of CLIF: Complementary Leaky Integrate-and-Fire neuron. ![model-badge][MODEL] ![trending-badge][trending]
 * [cuSNN](https://github.com/tudelft/cuSNN) is a C++ library that enables GPU-accelerated simulations of large-scale Spiking Neural Networks (SNNs). ![library-badge][library]
-* [decolle](https://github.com/nmi-lab/decolle-public) implements an online learning algorithm described in the paper ["Synaptic Plasticity Dynamics for Deep Continuous Local Learning (DECOLLE)"](https://arxiv.org/abs/1811.10766) by J. Kaiser, M. Mostafa and E. Neftci. ![algorithm-badge][ALGORITHMS], ![utility-badge][UTILITY]
-* [difffSNN](https://github.com/ibm-research-tokyo/diffsnn) implements differentiable point processes and spiking neural networks. ![algorithm-badge][ALGORITHM] ![trending-badge][trending]
 * [DRL with Population Coded Spiking Neural Network](https://github.com/combra-lab/pop-spiking-deep-rl) the PyTorch implementation of the **Pop**ulation-coded **S**piking **A**ctor **N**etwork (PopSAN) that integrates with both on-policy (PPO) and off-policy (DDPG, TD3, SAC) DRL algorithms for learning optimal and energy-efficient continuous control policies. ![package-badge][PACKAGE]
 * [Encoders](https://github.com/iamsoroush/Encoders) is a Python utility package of encoding algorithms that encode real-valued data into spike trains for use in Spiking Neural Networks. ![utility-badge][UTILITY]
 * [EvNN](https://github.com/Efficient-Scalable-Machine-Learning/EvNN) is a framework for event-based neural networks. ![framework-badge][FRAMEWORK] ![trending-badge][trending]
@@ -43,36 +40,54 @@
 * [snnTorch](https://github.com/jeshraghian/snntorch) is a Python package for performing gradient-based learning with spiking neural networks. It extends the capabilities of PyTorch, taking advantage of its GPU-accelerated tensor computation and applying it to networks of spiking neurons. ![package-badge][PACKAGE]
 * [Spike-Driven-Transformer-V2](https://github.com/BICLab/Spike-Driven-Transformer-V2) is the official implementation of "Spike-driven Transformer V2: Meta Spiking Neural Network Architecture" (ICLR2024). `ARCHITECTURE` ![trending-badge][trending]
 * [spikeflow](https://github.com/colinator/spikeflow) Python library for easy creation and running of spiking neural networks in TensorFlow. ![library-badge][library]
-* [SpikeGCL](https://github.com/EdisonLeeeee/SpikeGCL) is the official implementation of Spiking Graph Contrastive Learning. ~[][APPLICATION] ![trending-badge][trending]
 * [SpikeNet.jl](https://github.com/damiendr/SpikeNet.jl) is a spiking neural network simulator written in Julia. ![simulator-badge][SIMULATOR] ![trending-badge][trending]
-* [SpikeNet](https://github.com/EdisonLeeeee/SpikeNet) enables scalable dynamic graph learning via spiking neural networks. ~[][APPLICATION] ![trending-badge][trending]
 * [Spikes](https://github.com/akshaybabloo/Spikes) provides SNN-based encoders for time series data. ![utility-badge][UTILITY] ![trending-badge][trending]
 * [SpikeTorch](https://github.com/djsaunde/spiketorch) Python package used for simulating spiking neural networks (SNNs) in PyTorch. [successor to this project](https://github.com/BINDS-LAB-UMASS/bindsnet). ![package-badge][PACKAGE]  
-* [SpikeYOLO](https://github.com/BICLab/SpikeYOLO) implements spike-driven object detection using SNNs, targeting energy efficiency (ECCV2024 Best Paper Candidate). ![application-badge][APPLICATION] ![trending-badge][trending]
-* [Spikingformer](https://github.com/zhouchenlin2096/Spikingformer) applies spike-driven residual learning for Transformer-based SNNs. `ARCHITECTURE` ![trending-badge][trending]
+* [Spikingformer](https://github.com/zhouchenlin2096/Spikingformer) applies spike-driven residual learning for Transformer-based SNNs. ![architecture-badge][ARCHITECTURE] ![trending-badge][trending]
 * [SpikingJelly](https://github.com/fangwei123456/spikingjelly) is an open-source deep learning framework for Spiking Neural Network (SNN) based on PyTorch. ![framework-badge][FRAMEWORK]
 * [SpikingSIM](https://github.com/Evin-X/SpikingSIM) is a spike camera simulator. ![simulator-badge][SIMULATOR] ![trending-badge][trending]
 * [SpykeTorch](https://github.com/miladmozafari/SpykeTorch) High-speed simulator of convolutional spiking neural networks with at most one spike per neuron. ![package-badge][PACKAGE]
-* [spyx](https://github.com/kmheckel/spyx) is a spiking neural network implementation using JAX. ![framework-badge][FRAMEWORK] ![trending-badge][trending] ![trending-badge][trending]
+* [spyx](https://github.com/kmheckel/spyx) is a spiking neural network implementation using JAX. ![framework-badge][FRAMEWORK] ![trending-badge][trending]
 * [Tonic](https://github.com/neuromorphs/tonic) is a tool to facilitate the download, manipulation, and loading of event-based/spike-based data. It's like PyTorch Vision but for neuromorphic data! ![library-badge][library]
 * [WheatNNLeek](https://github.com/libgirlenterprise/WheatNNLeek) A Rust and common-lisp spiking neural network system. ![library-badge][library]
 
 ## Applications
-* [flyvec](https://github.com/bhoov/flyvec) A biologically inspired method to create sparse, binary word vectors
-
+* [ASGL-SNN](https://github.com/Windere/ASGL-SNN) implements "Adaptive Smoothing Gradient Learning" for SNNs (ICML 2023). ![algorithm-badge][ALGORITHM] ![trending-badge][trending]
+* [decolle](https://github.com/nmi-lab/decolle-public) implements an online learning algorithm described in the ["paper (DECOLLE)"](https://arxiv.org/abs/1811.10766). ![algorithm-badge][ALGORITHM] ![utility-badge][UTILITY]
+* [difffSNN](https://github.com/ibm-research-tokyo/diffsnn) implements differentiable point processes and spiking neural networks. ![algorithm-badge][ALGORITHM] ![trending-badge][trending]
+* [flyvec](https://github.com/bhoov/flyvec) A biologically inspired method to create sparse, binary word vectors. ![application-badge][APPLICATION]
+* [SpikeGCL](https://github.com/EdisonLeeeee/SpikeGCL) is the official implementation of Spiking Graph Contrastive Learning. ![application-badge][APPLICATION] ![trending-badge][trending]
+* [SpikeNet](https://github.com/EdisonLeeeee/SpikeNet) enables scalable dynamic graph learning via spiking neural networks. ![application-badge][APPLICATION] ![trending-badge][trending]
+* [SpikeYOLO](https://github.com/BICLab/SpikeYOLO) implements spike-driven object detection using SNNs, targeting energy efficiency (ECCV2024 Best Paper Candidate). ![application-badge][APPLICATION] ![trending-badge][trending]
 
 ### Papers
-* "Convolutional spiking neural networks (SNN) for spatiotemporal feature extraction". [Github repository](https://github.com/aa-samad/conv_snn)
-* "Enabling Deep Spiking Neural Networks with Hybrid Conversion and Spike Timing Dependent Backpropagation" published in [ICLR, 2020](https://openreview.net/forum?id=B1xSperKvH). [Github repository](https://github.com/nitin-rathi/hybrid-snn-conversion)
+* "Convolutional spiking neural networks (SNN) for spatiotemporal feature extraction". [Github](https://github.com/aa-samad/conv_snn)
+* "Enabling Deep Spiking Neural Networks with Hybrid Conversion and Spike Timing Dependent Backpropagation" published in [ICLR, 2020](https://openreview.net/forum?id=B1xSperKvH)・[Github](https://github.com/nitin-rathi/hybrid-snn-conversion)
+* "Enabling deep SNNs with hybrid ANN-to-SNN conversion and spike-timing-dependent backpropagation." [Github](https://github.com/nitin-rathi/hybrid-snn-conversion) [Paper](https://openreview.net/forum?id=B1xSperKvH)
+* "Dspike provides a differentiable simulator for deep convolutional SNN training using surrogate gradients." [Github](https://github.com/AcScd/Dspike)・[Paper](https://arxiv.org/abs/2112.10762)
+* "SNN-ResNet implements ResNet-style deep convolutional spiking neural networks with direct training." [Github](https://github.com/fangwei123456/SNN-ResNet)
+* "NeuNorm enables direct training of deep spiking networks on pattern recognition tasks using temporal spike representations." [Github](https://github.com/PeikeLi/SNN_CIFAR10)・[Paper](https://arxiv.org/abs/1911.00851)
+* "Efficient convolutional SNNs with approximate backpropagation for high-accuracy temporal feature learning." [Github](https://github.com/nitin-rathi/snn_toolbox)
+* "Survey on training spiking neural networks for cognitive tasks including convolutional and STDP-based architectures." [Paper](https://www.frontiersin.org/articles/10.3389/fnins.2019.00759/full)
+* "Comprehensive review of spiking neural network models, training methods, and convolutional architectures." [Paper](https://arxiv.org/abs/1903.06530)
 
-### Books
+
+### Books (by years)
 * Miller, P. (2018). "An Introductory Course in Computational Neuroscience" (1st Edition). MIT Press. [Buy](https://www.amazon.com/dp/0262038250/).
 * Arbib, M.A. & Bonaiuto, J.J. (2016). "From Neuron to Cognition via Computational Neuroscience". MIT Press. [Buy](https://www.barnesandnoble.com/w/from-neuron-to-cognition-via-computational-neuroscience-michael-a-arbib/1123648341?ean=9780262034968).
 * Bear, M.F., Connors, B.W., Paradiso, M.A. (2015). "Neuroscience: Exploring the Brain" (4th Edition). Jones & Bartlett Learning. [Buy](https://www.amazon.com/Neuroscience-Exploring-Mark-F-Bear/dp/0781778174).
 * Eliasmith, C. (2015). "How to Build a Brain: A Neural Architecture for Biological Cognition" (Reprint Edition). Oxford University Press. [Buy](https://www.amazon.com/How-Build-Brain-Architecture-Architectures/dp/0190262125).
 * Gerstner, W., Kistler, W.M., Naud, R., Paninski, L. (2014). "Neuronal Dynamics: From Single Neurons to Networks and Models of Cognition" (1st Edition). Cambridge University Press. [Read Online](https://neuronaldynamics.epfl.ch/online/index.html). [Buy](https://www.amazon.com/Neuronal-Dynamics-Neurons-Networks-Cognition/dp/1107635195/ref=pd_sbs_6/134-8952121-4431533?pd_rd_w=7ZxKW&pf_rd_p=3676f086-9496-4fd7-8490-77cf7f43f846&pf_rd_r=QSTA4C570Q8B7KSJZPJ6&pd_rd_r=94317d9c-2c88-4167-9f8e-f6098ba94c69&pd_rd_wg=2uxIx&pd_rd_i=1107635195&psc=1).
+* Kandel, E. R., Schwartz, J. H., Jessell, T. M., Siegelbaum, S. A., & Hudspeth, A. J. (2013). *Principles of neural science* (5th ed.). McGraw-Hill Education. [Buy](https://www.amazon.com/Principles-Neural-Science-Eric-Kandel/dp/0071390111)
+* Ermentrout, G. B., & Terman, D. H. (2010). *Mathematical foundations of neuroscience*. Springer. [Buy](https://www.amazon.com/Mathematical-Foundations-Neuroscience-Interdisciplinary-Applied/dp/038787707X)
 * Trappenberg, T. (2010). "Fundamentals of Computational Neuroscience" (2nd Edition). Oxford University Press. [Buy](https://www.amazon.com/Fundamentals-Computational-Neuroscience-Thomas-Trappenberg-dp-0199568413/dp/0199568413/ref=mt_other?_encoding=UTF8&me=&qid=).
+* Buzsáki, G. (2006). *Rhythms of the brain*. Oxford University Press. [Buy](https://www.amazon.com/Rhythms-Brain-Gyorgy-Buzsaki/dp/0195301064)
 * Dayan, P. & Abbott, L.F. (2005). "Theoretical Neuroscience: Computational and Mathematical Modeling of Neural Systems" (1st Edition). MIT Press. [Read Online](http://www.gatsby.ucl.ac.uk/~lmate/biblio/dayanabbott.pdf). [Buy](https://www.amazon.com/Theoretical-Neuroscience-Computational-Mathematical-Modeling/dp/0262541858/ref=pd_sbs_1/134-8952121-4431533?pd_rd_w=7ZxKW&pf_rd_p=3676f086-9496-4fd7-8490-77cf7f43f846&pf_rd_r=QSTA4C570Q8B7KSJZPJ6&pd_rd_r=94317d9c-2c88-4167-9f8e-f6098ba94c69&pd_rd_wg=2uxIx&pd_rd_i=0262541858&psc=1).
+* Izhikevich, E. M. (2006). *Dynamical systems in neuroscience: The geometry of excitability and bursting*. MIT Press. [Buy](https://www.amazon.com/Dynamical-Systems-Neuroscience-Excitability-Bursting/dp/0262090430)
+* Eliasmith, C., & Anderson, C. H. (2003). *Neural engineering: Computation, representation, and dynamics in neurobiological systems*. MIT Press. [Buy](https://www.amazon.com/Neural-Engineering-Computation-Representation-Neurobiological/dp/0262550601)
+* Gerstner, W., & Kistler, W. M. (2002). *Spiking neuron models: Single neurons, populations, plasticity*. Cambridge University Press. [Buy](https://www.amazon.com/Spiking-Neuron-Models-Neurons-Populations/dp/0521890799)
+* Koch, C. (1999). *Biophysics of computation: Information processing in single neurons*. Oxford University Press. [Buy](https://www.amazon.com/Biophysics-Computation-Information-Processing-Neurons/dp/0195181999)
+
 
 ---
 <small>Logo icon made by [Freepik](https://www.flaticon.com/authors/freepik) from [www.flaticon.com](https://www.flaticon.com/)</small>  
